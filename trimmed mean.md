@@ -19,5 +19,5 @@ Trimmed mean: (3 + 4 + 5)/3 = **4** </br></br>
 
 ## 5. In ML
 Trimmed mean helps summarizing noisy data where a few noisy values can distort the average.</br>
-It can be useful in robust preprocessing or exploratory analysis.
+It can be useful in robust preprocessing or exploratory analysis. 
 
