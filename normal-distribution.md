@@ -91,3 +91,10 @@ It may fail when:
 - data is bounded (eg. percentages)
 - multiple peaks exist </br>
 In these cases, median, IQR, or data transformations are preferred.
+
+## 12. In Machine Learning
+Normal distribution underlies many ML concepts such as:
+- Z-score standardisation
+- regression error assumptions
+- probabilistic model and likehoods </br></br>
+Understanding normal distribution helps in preprocessing, diagnostics, and model interpretation.
