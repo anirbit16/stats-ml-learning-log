@@ -36,7 +36,14 @@ In a normal distribution:
 - Approximately 99.7% of the data lies within the ±3σ </br>
 
 This explains why the values far from the mean are considered rare.
-## 6. Standard Normal distribution
+## 6. Standard normal distribution
+A standard normal distribution is a special case:
+- Mean = 0
+- Standard-deviation = 1
+
+A normal distribution can be transformed into a standard normal distribution using Z-score normalization.
+
+## 7. Probability Density Function (PDF)
 The probability distriubtion function (PDF) of a normal distribution is given by:
 
 
@@ -51,13 +58,36 @@ For continuous distributions:
 - Probability is obtained by calculating the area under the curve
 - Height of the curve represents density not probability.
 
-## Effects on the parameter on the PDF
+## 8. Effects on the parameter on the PDF
 - Increasing **μ** shifts the curve horizontally
 - Increasing **σ** spreads the curve wider and lowers the peak
 - Decreasing **σ** makes the curve narrower and increases the peak
 
 The total area under the curve always remains equal to 1.
 
-## 7. Cumulative Distribution Function (CDF)
+## 9. Cumulative Distribution Function (CDF)
+The cumulative distribution function (CDF) gives the probability that a random </br>
+variable is less than or equal to a given value. </br>
 
+For a normal distribution:
+- the CDF is smooth and S-shaped
+- It is closely related to the Z-table
+- It is used to compute probabilities over a range.
+- 
+## 10. When normal distribution assumptions hold
+Normal distribution assumptions are reasonable when:
+- data is symmetric
+- outliers are minimal
+- values may arise from small independent factors </br>
 
+In such cases:
+  - mean and standard deviation are reliable
+  - Z-score methods work well
+## 11. When normal distribution models fail
+Normal distribution is a model,not a rule.
+It may fail when:
+- data is highly skewed
+- extreme outliers dominate
+- data is bounded (eg. percentages)
+- multiple peaks exist </br>
+In these cases, median, IQR, or data transformations are preferred.
