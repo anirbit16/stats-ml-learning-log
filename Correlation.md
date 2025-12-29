@@ -73,4 +73,17 @@ r = cov(X, Y) / (σₓ * σᵧ)
 ```
 - Both increase together → **positive correlation**
 - They form a clean straight-line trend → `r = 1` (perfect linear correlation)
-
+## 5. Why it matters in ML (before modeling)
+Correlation helps you decide:
+- Whether **Linear Regression is even suitable**
+- If a feature is **too strongly correlated** with another (one may be redundant)
+- If your sample data shows a relationship that can generalize to population behavior
+- Which numerical features are worth keeping before training a model
+## 6. Common uses
+- Feature selection (drop highly correlated duplicates)
+- EDA before training
+- Understanding data assumptions before modelling
+## 7. Limitations
+- Captures **linear** relationships only
+- Does not imply causation
+- Misses non-linear dependencies
