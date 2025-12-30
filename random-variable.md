@@ -25,3 +25,25 @@ Takes **countable** values usually,integers.</br>
 Examples:
 - Number of heads in 10 coin tosses: 0, 1, 2............10
 - Dice outcome: 1,2,3,4,5,6
+
+A discrete random variable is described using a PMF
+### B) Continous random variable
+Takes a value from a **continuous range**
+Example:
+- Height of a person
+- Time taken to run 100 metres
+- Weight of a package
+A continous random variable is described using a PDF
+
+## 4. Notation
+Random variables are written as:
+- `X`,`Y` (capital letters)
+- `x`,`y` (small letters)
+
+Example:
+- `X` = outcome of a die role
+- `x = 4` we observe the value to be 4
+
+## 5. In ML
+In ML, each feature can be thought of as a random variable generating values in the real world.  
+Probability distributions help model and reason about uncertainty, noise, and variability in data.
